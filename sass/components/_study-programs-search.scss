@@ -1,0 +1,98 @@
+.study-programs-search {
+    background-color: $light-grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.study-programs-search__program-search{
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .study-programs-search__program-search {
+        padding-top: 1.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .study-programs-search__program-search {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1.5rem;
+    }
+    .study-programs-search__program-search .input-group {
+        height: 4rem;
+        margin-top: 1rem;
+    }
+}
+.study-programs-search__program-search .input-group {
+    height: 72px;
+    margin-top: 20px;
+}
+@media (max-width: 767px) {
+    .study-programs-search__program-search .input-group {
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .study-programs-search__program-search-list{
+        display: block !important;
+    }
+    .study-programs-search__program-search-list .btn {
+        margin-bottom: .6rem;
+        width: 100% !important;
+        text-align: left;
+    }
+}
+.study-programs-search__program-search .input-group .form-control{
+    height: unset;
+}
+
+.study-programs-search__program-search .input-group-append button {
+    width: 130px;
+}
+
+.study-programs-search__program-search-list{
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.study-programs-search {
+    .search_results_overlay {
+        background-color: #fff;
+        position: absolute;
+        z-index: 1022;
+        @media(max-width: 767px) {
+            width: 88.8%;
+        }
+        @media(min-width: 768px) and (max-width: 991px) {
+            width: 87%;
+        }
+        @media(min-width: 992px) and (max-width: 1199px) {
+            width: 80.2%;
+        }
+        @media(min-width: 1200px) {
+            width: 97.4%;
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+	.study-programs-search__program-search-list .pr-2 {
+        padding-right: 0 !important;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.study-programs-search__program-search-list .pr-2 {
+        padding-right: 0 !important;
+	}
+}
+
+
+@include media-breakpoint-down(md) {
+	.study-programs-search__program-search-list {
+        padding-left: 0;
+        padding-right: 0;
+	}
+}
+
+
+

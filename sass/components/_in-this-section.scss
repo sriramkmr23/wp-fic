@@ -1,0 +1,40 @@
+.in-this-section {
+  .fa, .fas {
+    color: $primary;
+  }
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      ul {
+        padding-left: 1em;
+      }
+    }
+  }
+}
+.list-group-item {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0px solid $gray-400;
+  border-left: 0;
+  padding: 1rem 1.25rem;
+  line-height: 1.25rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.list-group-item.active {
+  background-color: $lighter-grey;
+  border-bottom: 0px solid $primary;
+  background-size: 5px;
+  color: $primary;
+  font-weight: 700;
+}
+.list-group-item:hover {
+  background-color: $primary;
+  color: $web-white;
+
+}
+.shortcuts {
+  line-height: 15px;
+}

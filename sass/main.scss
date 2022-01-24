@@ -1,0 +1,84 @@
+@charset 'UTF-8';
+
+// Configurations and helpers
+@import
+    'utils/variables';
+
+// Vendors
+@import
+    'vendors/bootstrap/scss/bootstrap';
+
+// Base
+@import
+    'base/typography',
+    'base/icons',
+    'base/globals';
+
+// Layouts
+@import
+    'layout/header',
+    'layout/footer',
+    'layout/navigation';
+
+// Components
+@import
+    //'components/hero-space',
+    'components/hero-space-umass',
+    'components/hero',
+    'components/college-overview',
+    'components/study-programs-search',
+    'components/pathway-to-uni',
+    'components/spotlights',
+    'components/interstitial',
+    'components/in-this-section',
+    'components/primary-feature',
+    'components/secondary-promo',
+    'components/program-overview',
+    'components/section-overview-image-intro-text',
+    'components/section-overview',
+    'components/key_information',
+    'components/usp',
+    'components/checklist',
+    'components/blockquote',
+    'components/process-steps',
+    'components/accordion',
+    'components/breadcrumb',
+    'components/table',
+    'components/social-feeds-new',
+    'components/pre-arrival-form',
+    'components/formassembly-form',
+    'components/marketo-form',
+    'components/scroll-top',
+    'components/image-text',
+    'components/secondary-features',
+    'components/call-to-action-box',
+    'components/study-areas',
+    'components/notification',
+    'components/video-text',
+    'components/why-choose',
+    'components/summary-feature',
+    'components/full-width-spotlight',
+    'components/basic-spotlights',
+    'components/why-choose-tabs',
+    'components/key-selling-points',
+    'components/l2-basic-spotlights',
+    'components/l2-spotlights',
+    'components/l2-text-spotlights',
+    'components/courses',
+    'components/hero-carousel',
+    'components/text-cta-button',
+    'components/full-width-video',
+    'components/list-navigations',
+    'components/territory-acknowledgement',
+    'components/location-overview',
+    'components/location-call-to-action',
+    'components/location-image-text',
+    'components/location-video',
+    'components/featured-events',
+    'components/events',
+    'components/campaign-image-intro-text',
+    'components/campaign-marketo-form';
+
+// Page-specific style
+
+// Theme

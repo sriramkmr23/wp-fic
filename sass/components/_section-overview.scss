@@ -1,0 +1,33 @@
+.section-overview {
+	p {
+		font-size: 1.25rem;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.section-overview {
+		.section-overview__header {
+			background-size: cover;
+			height: 200px;
+		}
+		.section-overview__text {
+			height: 200px;
+		}
+	}
+}
+
+
+@media (max-width: 1199px) {
+
+	section.section-overview {
+		margin-top: 0!important;
+	}
+
+    section.section-overview .container {
+        max-width: 100% !important;
+    }
+    .py-5.section-overview-template-section {
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+}

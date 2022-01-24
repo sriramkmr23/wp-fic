@@ -1,0 +1,143 @@
+.study-areas {
+  padding-bottom: 3rem;
+
+  a.unit-container {
+
+    line-height: 1.5rem;
+    text-decoration: none !important;
+
+    h4 {
+      margin-bottom: 0;
+      color: $web-white;
+      font-size: 1rem;
+      line-height: 1.3rem;;
+    }
+
+    .course-qualification {
+      margin-top: 1rem;
+    }
+
+    .course-entry {
+      position: absolute;
+      bottom: 25px;
+
+    }
+
+    .arrow-wrapper {
+      overflow: hidden;
+      bottom: 0em;
+      left: 8em;
+      .arrow {
+          width: 65px;
+          height: 10px;
+          margin-right: 30px;
+          margin-left: 30%;
+          margin-top: 3px;
+          transition: linear 0.35s;
+      }
+    }
+
+    .study-area-unit {
+      border: 1px solid $primary;
+      min-height: 90px;
+      background-color: $primary;
+      color: $web-white;
+      height: 55%;
+    }
+
+    /*****
+    .study-area-unit:after {
+
+      position: absolute;
+      bottom: 25px;
+      right: 25px;
+      font-family: "Font Awesome 5 Free";
+      font-weight: bold;
+      content: "\f054";
+      color: $web-white;
+
+    }****/
+    .fa, .far, .fas {
+      color: $primary;
+      border: $primary;
+    }
+    color: $primary;
+
+    @media(max-width: 767px) {
+      .study-area-unit {
+        height: auto;
+      }
+      .arrow-wrapper {
+
+        .arrow {
+            margin-left: 50%;
+            height: 10px;
+        }
+      }
+    }
+  }
+  a.unit-container:hover {
+
+    color: $web-white;
+
+    .study-area-unit {
+      background-color: $secondary ;
+
+      h4 {
+        color: $web-white;
+      }
+    }
+
+    .study-area-unit:after {
+      color: $web-white;
+    }
+
+    .arrow-wrapper {
+      .arrow {
+        width: 85px;
+
+      }
+    }
+    text-decoration: none;
+  }
+
+  .study-area-row-2 {
+    a.unit-container {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+
+      .study-area-unit {
+        border: 1px solid $primary;
+        background-color: $primary;
+        min-height: 90px;
+      }
+      .study-area-unit:after {
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        content: "\f054";
+      }
+      .fa, .far, .fas {
+        color: $secondary;
+        border: $secondary;
+      }
+      color: $secondary;
+    }
+    a.unit-container:hover {
+      .study-area-unit {
+        background-color: $secondary;
+        border: 1px solid $secondary;
+      }
+      .fa, .far, .fas {
+        color: $primary;
+      }
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+
+
+
+}

@@ -1,0 +1,23 @@
+.mobile-search {
+  .dropdown-toggle {
+    margin-top: -4.2rem;
+    @media(max-width: 767px) {
+      margin-right: 3.5rem;
+    }
+    @media(min-width: 768px) and (max-width: 991px) {
+      margin-right: 5rem;
+    }
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .fas {
+    font-size: 24px;
+    color: rgba(0,0,0,.5);
+  }
+  .dropdown-menu {
+    width: 100%;
+    top: -10px;
+    right: -15px;
+  }
+}  

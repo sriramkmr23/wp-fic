@@ -1,0 +1,96 @@
+.rounded-custom {
+	border-top-left-radius: 0rem;
+	border-bottom-right-radius: 0rem;
+}
+
+.rounded-top-right {
+	border-top-right-radius: .75rem;
+}
+
+
+.notification, //notification
+.study-area-unit, //studyarea
+.rounded-top-right, //spotlight
+.list-group-item, //leftmenu
+.card-header, //accordion
+//.dropdown-item, //menudropdown
+.scroll-top, //scroll-top
+.btn-student-portal, //CTA button
+.content a, //innertextlink
+.btn {
+	/**text-decoration: none;
+  	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	**/
+	transition: none;
+}
+
+a {
+	/**color: $primary;
+	text-decoration: underline;**/
+}
+
+
+a.btn {
+	text-decoration: none;
+}
+.mb-6 {
+	margin-top: 3rem !important;
+}
+.stmb-1 {
+	margin-top: 1rem !important;
+}
+
+.stmb-2 {
+	margin-top: 2rem !important;
+}
+.stmb-3 {
+	margin-top: 3rem !important;
+}
+
+.stmt-1 {
+	margin-bottom: 1rem !important;
+}
+
+.stmt-2 {
+	margin-bottom: 2rem !important;
+}
+
+.stmt-3 {
+	margin-bottom: 3rem !important;
+}
+/**
+.btn {
+	border-radius: 2.1139rem;
+	border-width: .125rem!important;
+}
+**/
+aside.sidebar a {
+	text-decoration: none!important;
+}
+
+figure,
+.figure-img {
+	margin-bottom: 0;
+}
+
+.blockquote {
+	margin-bottom: 0;
+}
+
+.default-page .page-title {
+	h1 {
+		color: $darker-grey;
+	}
+	@media (max-width: 576px) {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 441px) {
+	.program-overview-template-section {
+		.row {margin-right: 0;
+			.col-md-9 {padding-right: 0;}
+		}
+
+	}
+}

@@ -1,0 +1,55 @@
+#why-choose-tabs  {
+
+
+    #why-choose-tab-content {
+        border-left: 2px solid $web-black;
+        border-right: 2px solid $web-black;
+        border-bottom: 2px solid $web-black;
+        /**border-left-color: $web-black;
+        border-right-color: $web-black;
+        border-bottom-color: $web-black;**/
+    }
+    .nav-tabs {
+        border-bottom: 2px solid $web-black;
+        /**border-left: 1px solid $web-black;
+        border-top: 1px solid $web-black;**/
+    }
+
+    .nav-tabs .nav-item:first-child .nav-link {
+        border-left: 1px solid #b0b2b3;
+        border-right: 1px solid #b0b2b3;
+        border-top: 1px solid #b0b2b3;
+    }
+
+    .nav-tabs .nav-item:last-child .nav-link {
+        border-right: 1px solid #b0b2b3;
+        border-top: 1px solid #b0b2b3;
+        border-left: 1px solid #b0b2b3;
+    }
+
+    .nav-tabs .nav-item:first-child .nav-link.active{
+        border-left: 2px solid $web-black;
+        border-right: 2px solid $web-black;
+        border-top: 2px solid $web-black;
+
+
+    }
+
+    .nav-tabs .nav-item:last-child .nav-link.active{
+        border-right: 2px solid $web-black;
+        border-top: 2px solid $web-black;
+        border-left: 2px solid $web-black;
+    }
+
+    .nav-tabs .nav-item {
+        margin-bottom: -2px !important;
+    }
+
+    @media (max-width: 767px) {
+    /**@media (max-width: 576px) { **/
+        .nav-link h2 {
+            font-size: 1.3rem;
+        }
+    }
+
+}

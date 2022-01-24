@@ -1,0 +1,15 @@
+section.location-call-to-action {
+    background-color: $secondary;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .btn-secondary {
+        border-color: $web-white;
+        color: $primary !important;
+        background-color: #fff;
+    }
+    .btn-secondary:hover {
+        color: $web-white !important;
+        background-color: $primary;
+    }
+}

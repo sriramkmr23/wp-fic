@@ -1,0 +1,17 @@
+.btn-primary{
+	color: #fff;
+	background-color: $rich-blue;
+	border: 1px solid $rich-blue;
+}
+.btn-secondary{
+	color: $web-white;
+	background-color: transparent !important;
+	/**background-color: $third-color;
+	border: 1px solid $third-color;**/
+}
+/*
+.btn-primary:hover, .btn-secondary:hover{
+	color: $accent-yellow;
+	background-color: transparent !important;
+}*/
+

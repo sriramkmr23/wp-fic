@@ -1,0 +1,59 @@
+
+			/*  div wrapped around entire subject list  */
+			div.fic-subject-listing {
+			}
+			/*  div wrapped around each fic subject  */
+			div.fic-subject {
+				padding-bottom: 2em;
+				border-bottom: thin dotted #aaa;
+			}
+			/*  "Even" fic subject  */
+			div.fic-subject.even {
+			}
+			/*  "Odd" fic subject  */
+			div.fic-subject.odd {
+				margin-top: 2em;
+			}
+			/*  Last fic subject  */
+			div.fic-subject.last {
+				padding-bottom: 0;
+				border: none;
+			}
+			/*  Wrap around subject info  */
+			.fic-subject-info-wrap {
+				float: left;
+				width: 70%;
+				margin-left: 3%;
+			}
+			/*  [subject-bio-formatted]  */
+			div.fic-subject-bio {
+			}
+			/*  p tags within [subject-bio-formatted]  */
+			div.fic-subject-bio p {
+			}
+			/*  [subject-photo]  */
+			img.fic-subject-photo {
+				float: left;
+			}
+			/*  [subject-email-link]  */
+			.fic-subject-subjectkey {
+			}
+			/*  [subject-name-formatted]  */
+			div.fic-subject-listing h3.fic-subject-name {
+				margin: 0;
+			}
+			/*  [subject-position-formatted]  */
+			div.fic-subject-listing h4.fic-subject-position {
+				margin: 0;
+				font-style: italic;
+			}
+			/* Clearfix for div.fic-subject */
+			div.fic-subject:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+			/* Clearfix for <= IE7 */
+			* html div.fic-subject { height: 1%; }
+			div.fic-subject { display: block; }
+		

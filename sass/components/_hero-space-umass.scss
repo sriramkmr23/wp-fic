@@ -1,0 +1,102 @@
+section.hero-space {
+  border-top: 1px solid #1f1f1f;
+  border-bottom: 1px solid #1f1f1f;
+  background-color: #1f1f1f;
+
+
+  .score-hero {
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+
+    @media only screen and (max-width: 1199px) {
+      background: rgba(0, 0, 0, 0.8) !important;
+      padding-top: 0;
+      height: auto;
+
+    }
+    @media only screen and (min-width: 1200px) {
+      text-align: right;
+    }
+    .score-hero-image {
+      display: none;
+      img {
+        width: 100%;
+      }
+      @media only screen and (max-width: 1199px) {
+        display: block;
+        overflow: hidden;
+
+      }
+    }
+
+    h1 {
+      color: #fff;
+      display: block;
+    }
+    .score-hero-body {
+      color: #aaa;
+      margin: 0px;
+      background: rgba($web-black, .6);
+      text-align: left;
+      height: 450px;
+      padding:15px;
+
+        @media only screen and (max-width: 1199px) {
+          height: auto;
+          width: 100%;
+          margin-left: 0;
+
+        }
+          p {
+          @media only screen and (min-width: 1200px) {
+            float: none;
+          }
+      }
+
+
+      .score-hero-body {
+          clear: both;
+
+      }
+
+      .hero-space__card {
+        padding-left: 30px;
+        padding-right: 30px;
+        @media only screen and (max-width: 1199px) {
+
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        .score-call-to-action .ml-2 {
+          margin-right: 0.5rem !important;
+          margin-bottom: 0.5rem !important;
+          background-color: $primary;
+          color: $web-white;
+          font-family: Raleway;
+
+          @media only screen and (max-width: 1199px) {
+            margin-left: 0 !important;
+            margin-bottom: 0.5rem !important;
+          }
+        }
+
+        .score-call-to-action .ml-2:hover {
+          background-color: $primary-hover;
+
+        }
+      }
+
+    }
+
+  }
+
+}
+
+
+@media (max-width: 1199px) {
+  section.hero-space .container {
+    max-width: 100% !important;
+  }
+}

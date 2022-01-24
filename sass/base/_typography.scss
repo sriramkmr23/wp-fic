@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'din-pro-medium';
+    src: url('../font/din/din-pro-medium.otf'), /* IE9 Compat Modes */
+    url('../font/din/din-pro-medium.otf') format('otf'), /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'odfinserif-reg';
+    src: url('../font/odfinserif-reg.otf'), /* IE9 Compat Modes */
+    url('../font/odfinserif-reg.otf') format('otf'), /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'countach-bold';
+    src: url('../font/countach-bold.otf'), /* IE9 Compat Modes */
+    url('../font/countach-bold.otf') format('otf'), /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'ff-din-pro-cond-black';
+    src: url('../font/din/ff-din-pro-cond-black.otf'), /* IE9 Compat Modes */
+    url('../font/din/ff-din-pro-cond-black.otf') format('otf'), /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'PFDinTextPro-Regular';
+    src: url('../font/pfdin/PFDinTextPro-Regular.ttf'), /* IE9 Compat Modes */
+    url('../font/pfdin/PFDinTextPro-Regular.ttf') format('ttf'), /* Modern Browsers */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: ff-din-pro-cond-black,Arial,sans-serif, "Helvetica Neue",Helvetica;
+    font-weight: normal!important;
+    letter-spacing: 1px!important;
+    color: $darker-grey;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+h1, .display-1 { font-size: $h1-font-size; }
+h2, .display-2 { font-size: $h2-font-size; }
+h3, .display-3 { font-size: $h3-font-size; }
+h4, .display-4 { font-size: $h4-font-size; }
+h5, .display-5 { font-size: $h5-font-size; }
+h6, .display-6 { font-size: $h6-font-size; }
+
+.content a {
+    /*font-weight: bold;*/
+    text-decoration: underline;
+    color: #6d6f71;
+}
+.content a:hover {
+    /*font-weight: bold;*/
+    text-decoration: none;
+    color: $primary;
+}
+
+$font-family-sans-serif: "odfinserif-reg", sans-serif,Arial, "Helvetica Neue",Helvetica;
+
+body {
+    font-family: "PFDinTextPro-Regular", sans-serif,Arial, "Helvetica Neue",Helvetica;
+    color: $web-black !important;
+    background-color: $web-white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 136px;
+    /*font-feature-settings: "lnum";*/
+
+    @media(max-width: 767px) {
+        margin-top: 0px;
+    }
+
+    @media(max-width: 500px) {
+        margin-top: 0px;
+    }
+
+    @media (max-width: 450px) {
+        margin-top: 0px;
+    }
+}
+code {
+    font-family: "PFDinTextPro-Regular", sans-serif,Arial, "Helvetica Neue",Helvetica;
+    color: $web-black !important;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.text-primary {
+    color: $web-black !important;
+}
+
+
+.btn-primary {
+    border-color: $primary;
+    padding: 0.5em 2em;
+    display: inline-block;
+    font-size: 0.90em;
+    color: $primary!important;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+    text-transform: uppercase;
+
+}
+
+.btn-primary:hover {
+    color: $web-white!important;
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.btn-secondary {
+    border-color: $web-white;
+    padding: 0.5em 2em;
+    display: inline-block;
+    font-size: 0.90em;
+    color: $primary!important;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: $web-white;
+    text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+    color: $web-white!important;
+    background-color: $primary;
+    border-color: $web-white;
+}
+
+.btn-info {
+    border-color: $primary;
+    padding: 0.5em 2em;
+    display: inline-block;
+    font-size: 0.90em;
+    color: $primary!important;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: $web-white;
+    text-transform: uppercase;
+
+}
+
+.btn-info:hover {
+    background-color: $primary;
+    border-color: $web-white;
+    color: $web-white!important;
+}
+
+
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled).active,
+.show>.btn-info.dropdown-toggle {
+	color: $web-white!important;
+    background-color: $secondary;
+    border-color: $secondary;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+	color: $web-white!important;
+    background-color: $secondary !important;
+    border-color: $secondary !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show>.btn-secondary.dropdown-toggle {
+	color: $primary;
+    background-color: $web-white;
+    border-color: transparent;
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.show>.btn-info.dropdown-toggle:focus,
+.btn-info:focus,
+.btn-info.focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-secondary.dropdown-toggle:focus,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn:focus  {
+    box-shadow: none;
+}
+/**
+    @media (max-width: 576px) {
+        h1,
+        .h1,
+        .display-1 {
+            font-size: 2rem;
+            line-height: 1.25;
+        }
+        h2,
+        .h2,
+        .display-2 {
+            font-size: 1.625rem;
+            line-height: 1.15384615;
+        }
+        h3,
+        .h3,
+        .display-3 {
+            font-size: 1.375rem;
+            line-height: 1.13636364;
+        }
+        h4,
+        .h4,
+        .display-4 {
+            font-size: 1.125rem;
+            line-height: 1.11111111;
+        }
+    }
+***/

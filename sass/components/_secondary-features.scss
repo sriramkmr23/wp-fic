@@ -1,0 +1,36 @@
+section.secondary-features {
+
+    .secondary-features__profile {
+        background: $light-grey;
+    }
+
+    .secondary-features__profile-image {
+        height: auto;
+    }
+    .secondary-features__content {
+        padding-left: 30%;
+    }
+    .secondary-features__title:after {
+        content:"";
+        width:100%;
+        display: block;
+        margin:10px 0 auto;
+    }
+    .secondary-features__description {
+        font-size: 14px;
+        line-height:23px;
+    }
+    .secondary-features h2 {
+        margin-bottom: 30px;
+    }
+
+    @include media-breakpoint-down(xs) {
+        .secondary-features .media {
+            display: block;
+            img {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+

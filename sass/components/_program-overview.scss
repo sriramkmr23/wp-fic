@@ -1,0 +1,136 @@
+section.program-overview {
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .program-overview-hero {
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+
+        @media only screen and (max-width: 1199px) {
+            padding-top: 0;
+            height: auto;
+
+        }
+        @media only screen and (min-width: 1200px) {
+            text-align: right;
+        }
+        .program-overview-image {
+            display: none;
+            img {
+                width: 100%;
+            }
+            @media only screen and (max-width: 1199px) {
+                display: block;
+                overflow: hidden;
+            }
+        }
+
+        h1 {
+            font-family: countach-bold,sans-serif, "Helvetica Neue",Helvetica;
+            color: $web-white;
+            display: block;
+            margin-bottom: 0;
+        }
+
+        .program-overview-body {
+            color: $web-white;
+            margin: 0px;
+
+            text-align: left;
+            /**height: 300px;**/
+            padding:15px 0px 0 0px;
+
+            /*margin-left: 15px;*/
+
+            @media only screen and (max-width: 1199px) {
+                height: auto;
+                width: 100%;
+                margin-left: 0;
+                padding: 0px 0 0px 0;
+
+            }
+            p {
+                @media only screen and (min-width: 1200px) {
+                    float: left;
+                }
+            }
+
+
+            .program-overview-body {
+                clear: both;
+
+            }
+
+            .program-overview__card {
+                padding-left: 30px;
+                padding-right: 30px;
+		        width: 100%;
+                background: rgba($primary, 1);
+                padding-top: 1rem;
+
+
+                @media only screen and (max-width: 1199px) {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    background: none;
+                }
+
+                p.lead {
+                    font-weight: bold;
+                }
+
+            }
+
+        }
+
+        .program-overview__text-left {
+            display: flex;
+            align-items: flex-end;
+        }
+        .program-overview__text-right {
+            color: $web-white;
+            display: flex;
+            align-items: center;
+            margin-left:auto;
+            width:65%;
+        }
+
+        .program-overview__text-center {
+            text-align: center;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        h1.display-1 {
+            /**color: $web-black;**/
+        }
+
+
+    }
+
+    @media (max-width: 576px) {
+        margin-top: 80px;
+        .program-overview-hero {
+            background-image: none !important;
+        }
+    }
+
+    @media (max-width: 320px) {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 1199px) {
+    section.program-overview .container {
+        max-width: 100% !important;
+    }
+    .py-5.program-overview-template-section {
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+}

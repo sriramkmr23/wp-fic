@@ -1,0 +1,286 @@
+{
+    "key": "group_5cebb3ea9d23b",
+    "title": "Spotlights",
+    "fields": [
+        {
+            "key": "field_5dd14125bff38",
+            "label": "Spotlight Section Heading",
+            "name": "spotlight-section-heading",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cebb3f08191e",
+            "label": "Spotlight One Image",
+            "name": "spotlight-one-image",
+            "type": "image",
+            "instructions": "Dimensions -x width, y height (pixels).\r\nMax file size - 1 MB.\r\nAllowed file types - .jpg, .jpeg",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 340,
+            "min_height": 190,
+            "min_size": "",
+            "max_width": 340,
+            "max_height": 190,
+            "max_size": 1,
+            "mime_types": ".jpg, .jpeg"
+        },
+        {
+            "key": "field_5cebb4ba1f8f0",
+            "label": "Spotlight One Heading",
+            "name": "spotlight-one-heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cebb4f91f8f1",
+            "label": "Spotlight One Text",
+            "name": "spotlight-one-text",
+            "type": "wysiwyg",
+            "instructions": "One or two sentences",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "very_basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5cecee3838e76",
+            "label": "Spotlight One URL",
+            "name": "spotlight-one-url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cebb640bab9c",
+            "label": "Spotlight Two Image",
+            "name": "spotlight-two-image",
+            "type": "image",
+            "instructions": "Dimensions -x width, y height (pixels).\r\nMax file size - 1 MB.\r\nAllowed file types - .jpg, .jpeg",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 340,
+            "min_height": 190,
+            "min_size": "",
+            "max_width": 340,
+            "max_height": 190,
+            "max_size": 1,
+            "mime_types": ".jpg, .jpeg"
+        },
+        {
+            "key": "field_5cebb5a42ae8d",
+            "label": "Spotlight Two Heading",
+            "name": "spotlight-two-heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cebb5b72ae8e",
+            "label": "Spotlight Two Text",
+            "name": "spotlight-two-text",
+            "type": "wysiwyg",
+            "instructions": "One or two sentences",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "very_basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5cecee6b38e78",
+            "label": "Spotlight Two URL",
+            "name": "spotlight-two-url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cebb678bab9d",
+            "label": "Spotlight Three Image",
+            "name": "spotlight-three-image",
+            "type": "image",
+            "instructions": "Dimensions -x width, y height (pixels).\r\nMax file size - 1 MB.\r\nAllowed file types - .jpg, .jpeg",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 340,
+            "min_height": 190,
+            "min_size": "",
+            "max_width": 340,
+            "max_height": 190,
+            "max_size": 1,
+            "mime_types": ".jpg, .jpeg"
+        },
+        {
+            "key": "field_5cebb5ea2ae8f",
+            "label": "Spotlight Three Heading",
+            "name": "spotlight-three-heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cebb5fe2ae90",
+            "label": "Spotlight Three Text",
+            "name": "spotlight-three-text",
+            "type": "wysiwyg",
+            "instructions": "One or two sentences",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "very_basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5cecee7d38e79",
+            "label": "Spotlight Three URL",
+            "name": "spotlight-three-url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 4,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1642743871
+}

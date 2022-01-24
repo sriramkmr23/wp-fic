@@ -1,0 +1,14 @@
+section.key-selling-points  {
+    background-color: $light-grey;
+
+    h3 {
+        line-height: 1.3em;;
+    }
+    a:hover {
+
+        p,
+        h3 {
+            text-decoration: underline;
+        }
+    }
+}

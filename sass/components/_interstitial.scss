@@ -1,0 +1,58 @@
+.interstitial {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  min-height: 450px;
+  position: relative;
+  width: 100%;
+}
+
+.interstitial .row {
+  position: relative;
+}
+
+.interstitial.jumbotron {
+  margin-bottom: 0;
+}
+
+.interstitial__text {
+  h2 {
+    color: $primary;
+  }
+  p {
+    color: $primary;
+    padding: 0px 100px;
+  }
+}
+
+.full-width-feature-opaque-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 45px;
+  background: rgba($web-black, .7);
+
+}
+Section#full-width-feature {
+  .interstitial__text {
+    h2 {
+      color: $web-white;
+    }
+    p {
+      color: $web-white;
+      padding: 0px 100px;
+    }
+  }
+
+}
+
+@include media-breakpoint-down(xs) {
+  .interstitial__text p {
+    padding: 0;
+  }
+}

@@ -1,0 +1,129 @@
+{
+    "key": "group_5f9c09f657b5e",
+    "title": "Hero Carousel",
+    "fields": [
+        {
+            "key": "field_5f9c0a0162245",
+            "label": "Slider Image",
+            "name": "hero-carousel-slider",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Slider",
+            "sub_fields": [
+                {
+                    "key": "field_5f9c0d2940890",
+                    "label": "Image",
+                    "name": "hero-slider-image",
+                    "type": "image",
+                    "instructions": "Dimensions -1520 width, 916 height  (pixels).\r\nMax file size - 500 KB.\r\nAllowed file types - .jpg, .jpeg",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": 1520,
+                    "min_height": 916,
+                    "min_size": "",
+                    "max_width": 1520,
+                    "max_height": 916,
+                    "max_size": "0.5",
+                    "mime_types": ".jpg, .jpeg"
+                },
+                {
+                    "key": "field_5f9c0da440891",
+                    "label": "Heading",
+                    "name": "hero-slider-heading",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f9c0dcd40892",
+                    "label": "Text",
+                    "name": "hero-slider-text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5f9c0e0940893",
+                    "label": "Call to Action",
+                    "name": "hero-slider-call-to-action",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-location.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1627912109
+}

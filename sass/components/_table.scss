@@ -1,0 +1,67 @@
+.supsystic-table {
+  /*font-family: $font-family-sans-serif;*/
+  thead {
+    tr {
+      background-color: $primary;
+      color: #fff;
+      th, td {
+        /*font-family: $font-family-sans-serif;*/
+      }
+    }
+  }
+  tbody {
+    tr.odd {
+      background-color: rgba(0,0,0,.05);
+      td {
+        /*font-family: $font-family-sans-serif;*/
+      }
+    }
+  }
+}
+
+.basic-table {
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  width: 100%;
+  thead {
+    tr {
+      background-color: $primary;
+      color: #fff;
+      border: 1px solid #dddddd;
+      th, td {
+        /*font-family: $font-family-sans-serif;*/
+        padding: 10px 18px;
+        white-space: pre-wrap;
+      }
+    }
+  }
+  tbody {
+    tr.odd {
+      background-color: rgba(0,0,0,.05);
+    }
+    tr.even {
+      background-color: #dddddd;
+    }
+    tr td {
+      /*font-family: $font-family-sans-serif;*/
+      padding: 8px 10px;
+      border: 1px solid #dddddd;
+      @include media-breakpoint-down(md) {
+        ul {
+          white-space: nowrap;
+        }
+        ol {
+          white-space: nowrap;
+        }
+        white-space: pre-wrap;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .table-wrap {
+    overflow-x: scroll;
+    white-space: pre-wrap;
+  }
+}

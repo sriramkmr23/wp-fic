@@ -1,0 +1,18 @@
+.college-overview {
+	background-color: $web-white;
+	color: $web-black;
+
+
+	p {
+		font-size: 1.25rem;
+		text-align: left;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.college-overview {
+		p {
+			text-align: left;
+		}
+	}
+}

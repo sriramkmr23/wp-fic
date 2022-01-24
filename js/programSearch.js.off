@@ -1,0 +1,96 @@
+class programSearch {
+    // 1. Describe and create our object
+    constructor() {
+        this.searchForm = $('#form_program_search');
+        this.searchField = $('#program_search_field');
+        this.searchHelpText = $('#search_help_text');
+        this.searchResultsOverlay = $('.search_results_overlay');
+        this.programSearchResults = $('.program_search_results');
+        this.programSearchSection = $('.study-programs-search__program-search');
+        this.body = $(document);
+        this.events();
+        this.searchOverlayStatus = false;
+        this.searchHelpTextStatus = false;
+    }
+
+    // 2. Events
+    events() {
+        this.searchForm.on('submit', this.getResults.bind(this));
+        this.body.on('click', this.hideSearchOverlay.bind(this));
+        this.programSearchSection.on('click', this.persistSearchOverlay.bind(this));
+        this.body.on('keydown', this.keyPressDispatcher.bind(this));
+        this.searchField.on('keyup', this.typingLogic.bind(this));
+    }
+
+    // 3. Methods
+    displaySearchOverlay() {
+        this.searchResultsOverlay.fadeIn(150);
+        event.preventDefault();
+        this.searchOverlayStatus = true;
+    }
+    hideSearchOverlay() {
+        this.searchResultsOverlay.fadeOut(150);
+        this.searchOverlayStatus = false;
+    }
+    persistSearchOverlay(e) {
+        e.stopPropagation();
+    }
+    keyPressDispatcher(e) {
+        if(e.keyCode == 27 && this.searchOverlayStatus) {
+            this.hideSearchOverlay();
+        }
+    }
+    typingLogic(e) {
+        if(this.searchField.val() == '' && e.keyCode != 13) {
+            this.hideSearchOverlay();
+        }
+    }
+    openSearchHelpText() {
+        this.programSearchResults.html('');
+        this.searchHelpText.html('Please enter a keyword.');
+        this.searchHelpText.fadeIn();
+        this.displaySearchOverlay();
+        this.searchHelpTextStatus = true;
+    }
+    closeSearchHelpText() {
+        this.searchHelpText.html('');
+        this.searchHelpText.fadeOut();
+        this.searchHelpTextStatus = false;
+    }
+    getResults() {
+        if(this.searchField.val() == '') {
+            this.openSearchHelpText();
+        } else if(this.searchField.val() != '') {
+            if(this.searchHelpTextStatus) {
+                this.closeSearchHelpText();
+            }
+            $.getJSON(collegeData.root_url + '/wp-json/up-college/v1/programs?term=' + this.searchField.val(), function(results) {
+                $('.program_search_results').html(`
+                    ${results.undergraduate.length ? `
+                        <p class="lead font-weight-bold text-primary mb-1">Undergraduate</p>
+                        <ul class="mb-4">
+                            ${results.undergraduate.map(item => `<li><a href="${item.permalink}">${item.title}</a></li>`).join('')}
+                        </ul>
+                    ` : `` }
+                    ${results.graduate.length ? `
+                        <p class="lead font-weight-bold text-primary mb-1">Graduate</p>
+                        <ul class="mb-4">
+                            ${results.graduate.map(item => `<li><a href="${item.permalink}">${item.title}</a></li>`).join('')}
+                        </ul>
+                    ` : `` }
+                    ${results.esl.length ? `
+                        <p class="lead font-weight-bold text-primary mb-1">English as a Second Language</p>
+                        <ul class="mb-4">
+                            ${results.esl.map(item => `<li><a href="${item.permalink}">${item.title}</a></li>`).join('')}
+                        </ul>
+                    ` : `` }
+                    ${!results.esl.length && !results.graduate.length && !results.undergraduate.length ? '<p class="lead text-primary mb-1">No results found. Please try searching a different keyword.</p>' : ''}
+                `);
+            });
+            this.displaySearchOverlay();
+        }
+    }
+
+}
+
+var pSearch = new programSearch();

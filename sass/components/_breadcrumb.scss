@@ -1,0 +1,31 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 13px;
+    font-weight: bold;
+    color: $darker-grey;
+}
+
+@include media-breakpoint-down(xs) {
+    .breadcrumb {
+        display: none;
+    }
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    font-size: 13px;
+    color: $darker-grey;
+    padding-top: 7px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: $darker-grey;
+    font-size: 13px;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+    color: $primary;
+}

@@ -1,0 +1,17 @@
+section#territory-acknowledgement {
+
+    h2 {
+        color: $secondary;
+        word-spacing: 100vw;
+        text-align: right;
+        margin-top: 2rem;
+        text-transform: uppercase;
+    }
+    .territory-acknowledgement-content {
+        background-color: $web-white;
+        padding: 2.5rem;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}

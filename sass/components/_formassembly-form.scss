@@ -1,0 +1,65 @@
+.wFormContainer {
+  .lengthIndicator,
+  #tfa_6336-D {
+    display: none !important;
+  }
+  .columnLayout {
+    width: 100%;
+    .inputWrapper {
+      select,
+      input[type=text],
+      input[type=file] {
+        width: 98%;
+      }
+    }
+  }
+  .oneField {
+    width: 100%;
+  }
+  .inputWrapper {
+    max-width: none !important;
+    width: 100%;
+    select,
+    input[type=text],
+    input[type=file],
+    textarea {
+      width: 46.5%;
+    }
+  }
+    font-size: $font-size-base !important;
+    max-width: 100% !important;
+    border-width: 0 !important;
+    font-family: $font-family-base !important;
+    .wForm {
+      label, .label {
+        font-size: $font-size-base;
+      }
+      .pageSection {
+        h4 {
+          padding: 2px 0;
+          font-size: $h2-font-size;
+        }
+      }
+      .errFld {
+        border-width: 0 !important;
+      }
+      padding: 0;
+      fieldset {
+        padding: 0 0 15px 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        border-width: 0;
+        legend {
+          padding: 0;
+          font-size: $h4-font-size;
+        }
+      }
+      .oneField {
+        padding: 2px 0;
+        input {
+          padding: .375rem .75rem;
+        }
+      }
+    }
+  }

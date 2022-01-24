@@ -1,0 +1,95 @@
+.notification {
+  background-color: $secondary;
+  border-top: 1px solid $secondary;
+  border-bottom: 1px solid $secondary;
+
+  .notification-content {
+    justify-content: center;
+  }
+
+  a {
+    color: $web-white;
+    text-decoration: none;;
+  }
+
+  .container {
+    background-color: $secondary;
+    color: $web-white !important;
+    /**padding: 1rem 1rem !important;**/
+
+  }
+
+  h2.notification-header {
+    display: inline;
+    color: $web-white !important;
+  }
+
+  .separator {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline;
+    font-size: $h2-font-size;
+  }
+
+  .notification-text {
+    display: inline;
+    vertical-align: text-bottom;
+  }
+
+  .notification-link-icon {
+    font-weight: bold;
+    float: right;
+    vertical-align: top;
+    position: relative;
+    margin-top: -44px;
+    font-size: 1.25rem;
+    color: $web-white;
+  }
+
+
+
+  @media only screen and (max-width: 1199px) {
+    .container {
+      .notification-text {
+        display: inline-block;
+      }
+      .notification-link-icon {
+        margin-top: -51px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        .notification-link {
+          margin-top: 1rem;
+        }
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+  }
+
+}
+
+.notification:hover {
+    background-color: $primary !important;
+    color: $web-white;
+    text-decoration: none;
+    cursor: pointer;
+
+    .container {
+    background-color: transparent !important;
+
+    a,
+    h2.notification-header,
+    .notification-link-icon,
+    .notification-text {
+      color: $web-white !important;
+      text-decoration: none;
+    }
+  }
+}

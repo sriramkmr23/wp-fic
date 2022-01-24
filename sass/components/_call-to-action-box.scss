@@ -1,0 +1,15 @@
+.call-to-action-box {
+
+    .call-to-action-box-inner {
+        background-color: $light-grey;
+        padding: 3rem;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+	.call-to-action-box {
+        .call-to-action-box-inner {
+            padding: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@include media-breakpoint-down(md) {
+    .image-text {
+        .figure {
+            float: none !important;
+            margin-left: 0 !important;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

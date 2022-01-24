@@ -1,0 +1,19 @@
+.news-event p{
+    font-size: 14px;
+    line-height: unset;
+}
+.news-event li{
+	border-bottom: 1px solid #fff;
+}
+
+.news-event li:first-child {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.news-events-social-feeds ul a:hover {
+  background: rgba(8, 65, 131, .5);
+  color: #fff;
+  display: block;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

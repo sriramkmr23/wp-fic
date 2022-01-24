@@ -1,0 +1,47 @@
+section.key-information {
+
+    .key-information__details {
+
+        /**background-color: $secondary;**/
+        background-color: $light-grey;
+        color: $web-black;
+
+
+        .apply-btn-holder a {
+            /*margin-left: 0.5rem !important;*/
+            margin-right: 0.5rem !important;
+
+        }
+
+        .media-icon span.fa{
+            color: $darker-grey;
+        }
+
+
+
+        .key-information-border-bottom {
+            border-bottom: 1px solid $darker-grey;
+
+        }
+
+        @media (max-width: 1199px) {
+
+            .apply-btn-holder {
+                text-align: left !important;
+            }
+            .apply-btn-holder .btn {
+                margin-bottom: 0.5rem !important;
+            }
+        }
+    }
+    @media (max-width: 1199px) {
+        padding-top: 1rem;
+    }
+}
+
+.program-overview__intake-list,
+.program-overview__duration-list,
+.program-overview__location-list {
+    list-style: none;
+    padding: 0;
+}

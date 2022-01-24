@@ -1,0 +1,27 @@
+.wFormContainer {
+  border: 0 solid transparent !important;
+  max-width: 100% !important;
+  .wForm {
+    padding: 10px 0;
+    fieldset {
+      border-radius: 0 !important;
+      border-width: 0 !important;
+      padding: 0 0 15px 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      legend {
+        padding: 0 !important;
+        color: $primary !important;
+      }
+    }
+    .oneField,
+    .htmlSection {
+      padding: 2px 0 !important;
+    }
+    form {
+      .errFld {
+        border: 0 solid transparent !important;
+      }
+    }
+  }
+}

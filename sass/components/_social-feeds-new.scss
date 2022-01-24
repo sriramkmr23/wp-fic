@@ -1,0 +1,40 @@
+.news-events-social-feeds {
+    .container .row .col-lg-6 div {
+        background-color: $light-grey;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .list-unstyled a:hover {
+        text-decoration: none !important;
+    }
+    ul li a {
+        color: $web-black;
+
+        .media {
+            border-bottom: 1px solid #dee2e6;
+
+        }
+    }
+    ul li:last-child a {
+        .media {
+            border-bottom: 0;
+        }
+    }
+
+}
+
+@include media-breakpoint-down(xs) {
+    .news-events-social-feeds .media {
+        display: block;
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+}

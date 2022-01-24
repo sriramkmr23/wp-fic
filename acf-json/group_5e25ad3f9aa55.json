@@ -1,0 +1,417 @@
+{
+    "key": "group_5e25ad3f9aa55",
+    "title": "Why Choose Tabs",
+    "fields": [
+        {
+            "key": "field_5e25ad4a03747",
+            "label": "Tab One",
+            "name": "why-choose-tab-one",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e25ae51c0f97": {
+                    "key": "layout_5e25ae51c0f97",
+                    "name": "tab-one-heading",
+                    "label": "Tab One Heading",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e25aeba03748",
+                            "label": "Tab Heading",
+                            "name": "tab-one-heading-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e25b4b938960": {
+                    "key": "layout_5e25b4b938960",
+                    "name": "tab-one-introductory",
+                    "label": "Introductory",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e25b4db38961",
+                            "label": "Include Introductory Text",
+                            "name": "tab-one-introductory-text-include",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "yes": "Yes",
+                                "no": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "no",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_5e25b54838962",
+                            "label": "Introductory Text",
+                            "name": "tab-one-introductory-text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "visual",
+                            "toolbar": "very_basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e25b04a0374a": {
+                    "key": "layout_5e25b04a0374a",
+                    "name": "tab-one-content",
+                    "label": "Tab One Content",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e2ee55e5390c",
+                            "label": "Tab One Items",
+                            "name": "tab-one-items",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 1,
+                            "max": 6,
+                            "layout": "row",
+                            "button_label": "Add Item",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e2ee6db08a9b",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "type": "image",
+                                    "instructions": "Dimensions - 380 width, 217 height (pixels).\r\nMax file size - 100 KB.\r\nAllowed file types - .jpg, .jpeg",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "full",
+                                    "library": "all",
+                                    "min_width": 380,
+                                    "min_height": 217,
+                                    "min_size": "",
+                                    "max_width": 380,
+                                    "max_height": 217,
+                                    "max_size": "0.1",
+                                    "mime_types": ".jpg, .jpeg"
+                                },
+                                {
+                                    "key": "field_5e2ee72f08a9c",
+                                    "label": "Text",
+                                    "name": "text",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "visual",
+                                    "toolbar": "very_basic",
+                                    "media_upload": 0,
+                                    "delay": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                }
+            },
+            "button_label": "Add Row",
+            "min": 1,
+            "max": 6
+        },
+        {
+            "key": "field_5e2eec9bc587a",
+            "label": "Tab Two",
+            "name": "why-choose-tab-two",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e25ae51c0f97": {
+                    "key": "layout_5e25ae51c0f97",
+                    "name": "tab-two-heading",
+                    "label": "Tab Two Heading",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e2eec9bc587b",
+                            "label": "Tab Heading",
+                            "name": "tab-two-heading-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e25b4b938960": {
+                    "key": "layout_5e25b4b938960",
+                    "name": "tab-two-introductory",
+                    "label": "Introductory",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e2eec9bc587c",
+                            "label": "Include Introductory text",
+                            "name": "tab-two-introductory-text-include",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "yes": "Yes",
+                                "no": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "no",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_5e2eec9bc587d",
+                            "label": "Introductory Text",
+                            "name": "tab-two-introductory-text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "visual",
+                            "toolbar": "very_basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e25b04a0374a": {
+                    "key": "layout_5e25b04a0374a",
+                    "name": "tab-two-content",
+                    "label": "Tab Two Content",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e2eec9bc587e",
+                            "label": "Tab Two Items",
+                            "name": "tab-two-items",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 1,
+                            "max": 6,
+                            "layout": "row",
+                            "button_label": "Add Item",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e302ab8de676",
+                                    "label": "Heading",
+                                    "name": "heading",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e2eec9bc5880",
+                                    "label": "text",
+                                    "name": "text",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "visual",
+                                    "toolbar": "very_basic",
+                                    "media_upload": 0,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_5e2eec9bc587f",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "type": "image",
+                                    "instructions": "Dimensions - 340 width, 227 height (pixels).\r\nMax file size - 1 MB.\r\nAllowed file types - .jpg, .jpeg",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "full",
+                                    "library": "all",
+                                    "min_width": 340,
+                                    "min_height": 227,
+                                    "min_size": "",
+                                    "max_width": 340,
+                                    "max_height": 227,
+                                    "max_size": 1,
+                                    "mime_types": ".jpg, .jpeg"
+                                },
+                                {
+                                    "key": "field_5e302acede677",
+                                    "label": "Image Position",
+                                    "name": "image-position",
+                                    "type": "radio",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "left": "Left",
+                                        "right": "Right"
+                                    },
+                                    "allow_null": 0,
+                                    "other_choice": 0,
+                                    "default_value": "",
+                                    "layout": "horizontal",
+                                    "return_format": "value",
+                                    "save_other_choice": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                }
+            },
+            "button_label": "Add Row",
+            "min": 1,
+            "max": 6
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-why-choose.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1580633232
+}

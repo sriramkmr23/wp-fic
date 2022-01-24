@@ -1,0 +1,67 @@
+{
+    "key": "group_5d48883123b03",
+    "title": "Program Overview",
+    "fields": [
+        {
+            "key": "field_5d4888312e87a",
+            "label": "Image",
+            "name": "program-overview-image",
+            "type": "image",
+            "instructions": "Dimensions - 1600 width, 500 height (pixels).\r\nMax file size - 500 KB.\r\nAllowed file types - .jpg, .jpeg",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 1600,
+            "min_height": 500,
+            "min_size": "",
+            "max_width": 1600,
+            "max_height": 500,
+            "max_size": "0.5",
+            "mime_types": ".jpg, .jpeg"
+        },
+        {
+            "key": "field_5d4888312ee46",
+            "label": "Text",
+            "name": "program-overview-text",
+            "type": "textarea",
+            "instructions": "One or two sentences",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-program.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612603956
+}

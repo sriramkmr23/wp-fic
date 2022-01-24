@@ -1,0 +1,17 @@
+.secondary-promo {
+    h3,
+    p {
+        color: $web-white;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .secondary-promo {
+        .secondary-promo__box {
+            margin-bottom: 1rem;
+        }
+        .secondary-promo__image {
+            height: 240px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+section.video-panel.primary-bg {
+  background-color: $primary;
+  color: $web-white;
+
+  .video-player {
+    padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
+  }
+
+  h2 {
+    color: $web-white;
+  }
+
+}
+
+section.video-panel.white-bg {
+    background-color: $web-white;
+    color: $web-black;
+
+    .video-player {
+      padding-bottom: 3rem !important;
+      padding-top: 3rem !important;
+    }
+
+
+
+    .btn-info:hover {
+      border-color: $primary;
+
+    }
+
+}
+
+
+

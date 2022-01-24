@@ -1,0 +1,46 @@
+section.featured-events {
+
+    .event-featured-card {
+
+        margin-bottom: 2.5rem;
+
+        .card-body {
+            height: 310px;
+
+            .event-teaser {
+                height: 80px;
+                overflow:auto;
+            }
+        }
+
+        a.event-link {
+            h3 {
+                color: $primary;
+                line-height: 1em;
+            }
+            .arrow-wrapper {
+                margin-top: 1rem;
+                overflow: hidden;
+                bottom: 0em;
+                left: 8em;
+                .arrow {
+                    width: 30px;
+                    height: 10px;
+                    margin-right: 30px;
+                    margin-top: 3px;
+                    transition: linear 0.35s;
+                }
+            }
+        }
+
+        a.event-link:hover {
+            color: $primary;
+
+            .arrow-wrapper {
+                .arrow {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}

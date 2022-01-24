@@ -1,0 +1,83 @@
+.spotlights {
+    //background-image: url("../images/student-experience-background.jpg");
+    // background-image: url("../images/1613x656-orange.jpg");
+    // background-color: $corporate-secondary-grey;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    a {
+        text-decoration: none!important;
+    }
+    .card {
+        border: 0;
+        .card-body {
+            background-color: #f6f6f6;
+            color: $web-black;
+            min-height: 156px;
+            position: relative;
+        }
+        .card-body:after {
+            position: absolute;
+            bottom: 10px;
+            color: $primary;
+            right: 16px;
+            font-family: "Font Awesome 5 Free";
+            font-size: 1.625rem;
+            font-weight: bold;
+            content: "\f054";
+        }
+        .card-body h3 {
+            background: rgba($primary, 1);
+            color: $web-white;
+            padding: 9px 20px;
+            position: absolute;
+            top: -46px;
+            left: 0;
+        }
+        a:hover {
+            h3 {
+                background: #f6f6f6 !important;
+                color: $primary !important;
+
+            }
+
+            .card-body:after {
+                color: $primary !important;
+            }
+
+            text-decoration: none;
+        }
+
+        .shadow-sm {
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important
+        }
+
+        .shadow {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .95)!important
+        }
+
+        .shadow-lg {
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important
+        }
+
+        .shadow-none {
+            box-shadow: none!important
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        .card {
+            margin-bottom: 1rem;
+            .card-body h3 {
+                top: -46px;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .card {
+            margin-bottom: 1rem;
+        }
+    }
+}

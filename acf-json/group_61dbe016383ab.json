@@ -1,0 +1,125 @@
+{
+    "key": "group_61dbe016383ab",
+    "title": "Campaign Image + Intro Text",
+    "fields": [
+        {
+            "key": "field_61dbe035d2263",
+            "label": "Image",
+            "name": "campaign-image",
+            "type": "image",
+            "instructions": "Dimensions -1600 width, 500 height (pixels).\r\nMax file size - 500 KB.\r\nAllowed file types - .jpg, .jpeg",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 1600,
+            "min_height": 500,
+            "min_size": "",
+            "max_width": 1600,
+            "max_height": 500,
+            "max_size": ".5",
+            "mime_types": ".jpg, .jpeg"
+        },
+        {
+            "key": "field_61dbe074d2264",
+            "label": "Text",
+            "name": "campaign-text",
+            "type": "textarea",
+            "instructions": "One or two sentences",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_61dbe093d2265",
+            "label": "Button",
+            "name": "campaign-button",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_61dbe0cfd2266",
+            "label": "Include Form",
+            "name": "campaign-form-include",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_61dbe112d2267",
+            "label": "Form ID",
+            "name": "campaign-form-id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-campaign.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1642153576
+}

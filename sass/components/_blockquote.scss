@@ -1,0 +1,30 @@
+.blockquote_text_left {
+    border-left: 4px solid $primary;
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+.blockquote_text_right {
+    border-right: 4px solid $primary;
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+.blockquote_text_center {
+    text-align: center;
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+
+@include media-breakpoint-down(sm) { 
+    .blockquote_text_left {
+        margin-left: .25rem;
+        padding-left: 1.5rem;
+    }
+    .blockquote_text_right {
+        margin-left: .25rem;
+        padding-left: 1.5rem;
+    }
+    .blockquote_text_center {
+        margin-left: .25rem;
+        padding-left: 1.5rem;
+    }
+}

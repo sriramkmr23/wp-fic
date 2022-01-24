@@ -1,0 +1,118 @@
+section.full-width-video {
+    /**background-image: url("../images/test/owl-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    **/
+    background-color: $primary;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    /***
+    .full-width-video-carousel {
+        width: 1140px;
+        height: 641px;
+
+    }
+    .owl-item {
+        height: 641px;
+    }
+    .owl-carousel .owl-video-play-icon {
+        position: relative;
+        margin-left: 0!important;
+        margin-top: 0!important;
+        top:38%;
+        left: 47%;
+    }***/
+
+    .item-video iframe{
+        width: 1110px;
+        height: 624px;
+        border: 0;
+    }
+
+
+    /*** Navigation ***/
+
+    .owl-carousel .owl-dots,
+    .owl-carousel .owl-nav {
+        position: absolute;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        color: $web-white;
+        font-size: 60px;
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .owl-carousel .owl-nav {
+        width: 100%;
+        top: 38%;
+        margin: 0;
+        text-align: left;
+
+    }
+
+    .owl-theme .owl-nav .owl-prev {
+        text-align: left;
+    }
+
+    .owl-theme .owl-nav .owl-next {
+        text-align: right;
+        float: right;
+    }
+
+    .owl-carousel .owl-dots {
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+
+    }
+
+    .owl-carousel .owl-dots .owl-dot span {
+        background: $web-white;
+        transition: all 0.2s ease;
+        border: 1px solid $web-white !important;
+        width: 18px;
+        height: 18px;
+    }
+
+    .owl-carousel .owl-dots .owl-dot.active span {
+        background: $primary;
+        transition: all 0.2s ease;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        border: 1px solid $web-white;
+    }
+
+
+    @media(max-width: 767px) {
+        .item-video iframe{
+            width: 500px;
+            height: 281px;
+            border: 0;
+
+        }
+    }
+
+    @media(max-width: 500px) {
+        .item-video iframe{
+            width: 500px;
+            height: 281px;
+            border: 0;
+
+        }
+    }
+
+    @media (max-width: 450px) {
+        .item-video iframe{
+            width: 345px;
+            height: 194px;
+            border: 0;
+
+        }
+    }
+}

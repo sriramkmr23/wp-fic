@@ -1,0 +1,122 @@
+{
+    "key": "group_5eb2b14b17162",
+    "title": "Hero",
+    "fields": [
+        {
+            "key": "field_5eb2b14b1d1e1",
+            "label": "Image",
+            "name": "hero-image",
+            "type": "image",
+            "instructions": "Dimensions -570 width, 570 height  (pixels).\r\nMax file size - 500 KB.\r\nAllowed file types - .jpg, .jpeg",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 570,
+            "min_height": 570,
+            "min_size": "",
+            "max_width": 570,
+            "max_height": 570,
+            "max_size": "0.5",
+            "mime_types": ".jpg, .jpeg"
+        },
+        {
+            "key": "field_5eb2b14b1d1e8",
+            "label": "Heading",
+            "name": "hero-heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5eb2b14b1d1ed",
+            "label": "Text",
+            "name": "hero-text",
+            "type": "textarea",
+            "instructions": "One or two sentences",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5eb2b14b1d1f1",
+            "label": "Buttons",
+            "name": "hero-buttons",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 2,
+            "layout": "row",
+            "button_label": "Add CTA Buttons",
+            "sub_fields": [
+                {
+                    "key": "field_5eb2b14b2617a",
+                    "label": "Call to Action",
+                    "name": "hero-buttons-call-to-action",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "modified": 1604064546
+}

@@ -1,0 +1,81 @@
+{
+    "key": "group_5d4886753dddb",
+    "title": "Sitewide Scripts",
+    "fields": [
+        {
+            "key": "field_5d48868fc8c7f",
+            "label": "Header",
+            "name": "sitewide-header",
+            "type": "textarea",
+            "instructions": "You can add extra scripts to the header.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5d4886dcc8c80",
+            "label": "Body",
+            "name": "sitewide-body",
+            "type": "textarea",
+            "instructions": "You can add extra scripts after the opening <body> tag.\r\nUsed for Google Tag Manager.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5d488702c8c81",
+            "label": "Footer",
+            "name": "sitewide-footer",
+            "type": "textarea",
+            "instructions": "You can add extra scripts to the footer.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "sitewide-scripts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1578677143
+}

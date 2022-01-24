@@ -1,0 +1,54 @@
+section.hero {
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+        background-color: $primary;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .score-hero-text {
+        background-color: $primary;
+    }
+    .score-hero-image  {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero__card {
+        padding: 12rem 1.4375rem 1.4375rem 1.4375rem;
+        color: $web-white;
+
+        h1 {
+            color: $web-white;
+        }
+    }
+
+    .btn-info {
+        background-color: transparent;
+        color: $web-white;
+        border: 2px solid $primary;
+        margin-bottom: 0.5rem;
+    }
+
+    .btn-info:hover {
+        background-color: $primary !important;
+        color: $secondary !important;
+        border: 1px solid $primary;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    @media (max-width: 1199px) {
+        .hero__card {
+            padding: 2.15rem 1.4375rem 2.15rem 1.4375rem;
+        }
+    }
+
+}

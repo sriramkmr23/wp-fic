@@ -1,0 +1,41 @@
+.modal {
+    .modal-header h2 {
+        font-size: 1.25rem;
+    }
+    
+    .mktoForm {
+        .mktoFieldWrap {
+            width: 100%;
+        }
+        .mktoFormCol {
+            margin-bottom: 0;
+        }
+        input[type=email],
+        input[type=text],
+        input[type=number],
+        select.mktoHasWidth,
+        textarea.mktoHasWidth {
+            width:100% !important;
+            height:32px;
+        }
+        textarea.mktoHasWidth {
+            height:150px;
+        }
+        label#LblPrivacy_Policy_Consent__c {
+            width: 90%;
+            float: right;
+        }
+        input#Privacy_Policy_Consent__c {
+            width: 32px;
+            height: 32px;
+            margin-top: 6px;
+        }
+        .mktoButtonRow{
+            width:100%;
+            padding: 0 15px;
+        }
+        .mktoButtonRow [type=submit] {
+                width: 100%;
+        }
+    }    
+}

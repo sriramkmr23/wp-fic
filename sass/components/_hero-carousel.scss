@@ -1,0 +1,208 @@
+section.hero-carousel {
+
+    h1 {
+        font-family: countach-bold,sans-serif, "Helvetica Neue",Helvetica;
+        color: $web-white;
+        background-color: $primary;
+        line-height: 5rem;
+        font-size: 80px;
+        text-transform: uppercase;
+        padding: 1rem 1rem 1rem 1rem;
+        margin-bottom: 0;
+
+    }
+    .btn-primary {
+        border: 1px solid $primary;
+        color: $web-white!important;
+        background-color: $primary;
+    }
+    .btn-primary:hover {
+        border: 1px solid $web-white;
+        color: $primary!important;
+        background-color: $web-white;
+    }
+
+    color: $web-black;
+
+    .static {
+        position: static;
+        width: 100%;
+    }
+
+    .cover {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /*** Sliders image ***/
+    .owl-carousel .owl-slide {
+        position: relative;
+        /**height:  calc(100vh - 10rem);**/
+        width: 100%;
+        height:  calc(100vh);
+        background-color: lightgray;
+    }
+
+
+    .owl-carousel .owl-slide-animated {
+        /**transform: translateX(20px);**/
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.05s;
+    }
+
+    .owl-carousel .owl-slide-animated.is-transitioned {
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.5s;
+    }
+
+    .owl-slide-text {
+        background-color: transparent;
+        padding: 1rem 2rem 0rem 0rem;
+        margin-bottom: 1rem;
+        width: max-content;
+
+        h1 {
+            display: inline-block;
+        }
+        p {
+            display: inline-block;
+        }
+        .owl-slide-subtitle {
+            color: $web-white;
+            background-color: $primary;
+            padding-left: 1rem;
+            padding-bottom: 1rem;
+
+            p.lead {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .owl-carousel .owl-slide-title.is-transitioned {
+        transition-delay: 0.2s;
+    }
+
+    .owl-carousel .owl-slide-subtitle.is-transitioned {
+        transition-delay: 0.35s;
+    }
+
+    .owl-carousel .owl-slide-cta.is-transitioned {
+        transition-delay: 0.5s;
+    }
+
+
+    /*** Navigation ***/
+
+    .owl-carousel .owl-dots,
+    .owl-carousel .owl-nav {
+        position: absolute;
+    }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        color: $web-white;
+        font-size: 60px;
+        background: transparent;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .owl-carousel .owl-nav {
+        width: 100%;
+        top: 40%;
+        margin: 0;
+        text-align: left;
+
+    }
+
+    .owl-theme .owl-nav .owl-prev {
+        text-align: left;
+    }
+
+    .owl-theme .owl-nav .owl-next {
+        text-align: right;
+        float: right;
+    }
+
+
+    .owl-carousel .owl-dots {
+        left: 50%;
+        bottom: 10%;
+        transform: translateX(-50%);
+        margin: 0;
+
+    }
+
+    .owl-carousel .owl-dots .owl-dot span {
+        background: $web-white;
+        transition: all 0.2s ease;
+        border: 1px solid $primary;
+    }
+
+    .owl-carousel .owl-dots .owl-dot.active span {
+        background: $primary;
+        transition: all 0.2s ease;
+        border: 1px solid $web-white;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    @media(max-width: 767px) {
+
+        .owl-carousel .owl-slide {
+            background-image: none!important;
+            background-color: $primary!important;
+            margin-left: 1rem;
+        }
+        .owl-slide-text {
+            margin-top: 1rem;
+            width: auto;
+        }
+        .btn-primary {
+            border: 1px solid $web-white;
+            color: $web-white!important;
+            background-color: $primary;
+            margin: 0rem 1rem 1rem 1rem;
+        }
+        .btn-primary:hover {
+            border: 1px solid $web-white;
+            color: $primary!important;
+            background-color: $web-white;
+        }
+    }
+
+    @media (max-width: 576px) {
+
+        background-color: $primary;
+        margin-top: 80px;
+
+        .owl-carousel .owl-slide {
+            background-image: none!important;
+            background-color: $primary!important;
+            height: 100%;
+
+            .container {
+                width: 100%;
+                flex: 0 0 100%;
+                padding-right: 0;
+                padding-left: 0;
+
+
+
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        margin-top: 70px;
+    }
+
+
+}

@@ -1,0 +1,76 @@
+$light-red:                     #CC0633;
+$dark-red:                      #A6192E;
+
+$accent-yellow:                 #FFD100;  
+$ramgreen:                       rgb(15, 71, 8);
+
+$web-black:                     #000;
+$web-white:                     #FFFFFF;
+$light:                         #F2F3F6;
+
+$primary:                       $ramgreen;
+$secondary:                     $dark-red;
+
+$info:                           $dark-red;
+
+$primary-hover:                 $web-white;
+$secondary-hover:               $web-black;
+
+$corporate-secondary-grey:      #474747;
+$corporate-primary-grey:        #edf2f4;
+
+$web-black-shades:              #333333;
+$web-white-shades:               $corporate-primary-grey;
+
+
+$mobile-nav-border:             #e3e2de;
+
+$orange-color:                  #f2a900;
+$digital-color:                 #eb0045;
+$media-color:                   #e9511d;
+$sport-color:                   #00a783;
+
+$lighter-grey:                  #f5f5f5;
+$light-grey:                    #E0E0DF;
+$dark-grey:                     #54585A;
+$darker-grey:                   #414042;
+
+$footer-darker-color:           $darker-grey;
+
+$enable-rounded:                  false;
+
+/* #EBE0E5
+$font-family-sans-serif: 'Open Sans', sans-serif;
+*/
+
+
+$line-height-base:                1.6;
+
+$font-size-base:                  1rem;
+$h1-font-size:                	  3rem; /**80px;**/ /**2.77778em;**/ /**$font-size-base * 1.9;**/
+$h2-font-size:                	  2.5rem;/**1.33333em;**/ /**$font-size-base * 1.7;**/
+$h3-font-size:                	  1.7777rem;/**1.22222rem;**/ /**$font-size-base * 1.4;**/
+$h4-font-size:                	  1.3333rem;/**1.11111em;**/ /**$font-size-base * 1.2;**/
+$h5-font-size:                	  1.0rem;/**1em;**//**$font-size-base * 1;**/
+$h6-font-size:                	  .88889em;/**$font-size-base * 1;**/
+
+$headings-font-weight:            700;
+$headings-color:                  $primary;
+$headings-line-height:            1.5;
+
+
+$display1-size:                   2.625rem;
+$display2-size:                   2.25rem;
+$display3-size:                   1.85rem;
+$display4-size:                   1.5rem;
+
+$display1-weight:                 700;
+$display2-weight:                 700;
+$display3-weight:                 700;
+$display4-weight:                 700;
+
+$lead-font-weight:                400;
+
+$btn-border-width:                2px;
+$dropdown-color:                  $primary;
+$dropdown-link-active-color:      $web-white;

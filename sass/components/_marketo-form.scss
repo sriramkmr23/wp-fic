@@ -1,0 +1,40 @@
+.mktoForm {
+    .mktoGutter.mktoHasWidth:last-child {
+      display: none;
+    }
+    label[for=Privacy_Policy_Consent__c_lead],
+    label[for=Mail_Contact_Consent__c],
+    label[for=Email_Contact_Consent__c],
+    label[for=Phone_Contact_Consent__c] {
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: 1px;
+    }
+    input[type=radio] {
+      margin-right: .5rem;
+    }
+    input[type=radio]:not(:first-child) {
+      margin-left: 1rem;
+    }
+    .mktoFormCol {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 1.5rem;
+    }
+    input[type=email], input[type=text], 
+    select.mktoHasWidth {
+      width: 16em !important;
+    }
+    textarea.mktoHasWidth {
+      width: 28rem;
+      height: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 575px){
+    .mktoForm {
+      textarea.mktoHasWidth {
+        width: 100%;
+      }
+    }
+  }

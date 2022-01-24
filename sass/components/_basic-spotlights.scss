@@ -1,0 +1,28 @@
+section.basic-spotlights {
+    background-color: $web-white;
+    color: $primary;
+
+
+    .basic-spotlights-item-content {
+        padding: 1rem;
+        background-color: $web-white;
+
+        .content {
+            color: $web-black;
+        }
+    }
+
+    .basic-spotlights-item {
+        border-bottom: 1px solid $web-black;
+    }
+
+    .basic-spotlights-item .basic-spotlights-item-content {
+       /* border-left: 1px solid $web-black;*/
+    }
+
+    .basic-spotlights-item:nth-child(1) .basic-spotlights-item-content ,
+    .basic-spotlights-item:nth-child(4) .basic-spotlights-item-content {
+        border-left: 0 none;
+    }
+
+}

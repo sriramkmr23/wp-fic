@@ -223,6 +223,8 @@ function is_bot($user_agent) {
 
 	</div>
 </header>
+
+
 <?php
 /***
 <section class="site-header" >
